@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>郵便番号変換</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://yubinbango.github.io/yubinbango/yubinbango.js"></script>
+</head>
+<body>
+  <header>
+    <h1>郵便番号住所変換</h1>
+  </header>
+  <main>
+    <form class="h-adr">
+      <input type="hidden" class="p-country-name" value="Japan">
+      <dl>
+        <div>
+          <dt>郵便番号</dt>
+          <dd><input type="text" class="p-postal-code"></dd>
+        </div>
+        <div>
+          <dt>住所</dt>
+          <dd><input type="text" class="p-region p-locality p-street-address p-extended-address"></dd>
+        </div>
+      </dl>
+    </form>
+  </main>
+</body>
+</html>

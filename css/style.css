@@ -1,0 +1,65 @@
+@charset "UTF-8";
+body {
+  font-family: sans-serif;
+  background-color: #35495c;
+}
+main {
+  width: 90%;
+  max-width: 980px;
+  margin: 0 auto 50px;
+  padding: 80px;
+  background: #fff;
+  border-radius: 30px;
+}
+h1 {
+  color: #ffcc00;
+  text-align: center;
+  font-size: 3em;
+  padding: 70px 0;
+  font-weight: bold;
+}
+main dl div {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: baseline;
+}
+main dl div:last-child {
+  padding-bottom: 0;
+}
+main dt {
+  flex-basis: 6em;
+  font-size: 2em;
+  color: #ec8519;
+  font-weight: bold;
+}
+main dd {
+  flex: 1;
+}
+main p {
+  text-align: center;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 1.3em;
+  color: #333;
+  background-color: #efefef;
+  border: 1px solid #ccc;
+}
+button {
+  color: #35495c;
+  padding: 15px 35px;
+  font-size: 1.4em;
+  font-weight: bold;
+  background: #ffcc00;
+  border: none;
+  border-radius: 30px;
+}
+button:focus {
+  outline: none;
+}
+dd button {
+  margin-left: 10px;
+  padding: 13px 10px;
+  font-size: 1em;
+}
